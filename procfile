@@ -1,1 +1,1 @@
-web:nodemon app,
+web: node index.js
