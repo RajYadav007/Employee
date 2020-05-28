@@ -39,7 +39,7 @@ const Createemployee=({navigation,route})=>
     const[enableshift,setenableShift]=useState(false)
     
      const submitData = ()=>{
-        fetch("http://rajyadav07.herokuapp.com/send-data",{
+        fetch("https://employee123kl.herokuapp.com/send-data",{
             method:"post",
             headers:{
               'Content-Type': 'application/json'
@@ -66,7 +66,7 @@ const Createemployee=({navigation,route})=>
   }
   const updateDetails=()=>
   {
-    fetch("http://rajyadav07.herokuapp.com/update ",{
+    fetch("https://employee123kl.herokuapp.com/update ",{
         method:"post",
         headers:{
           'Content-Type': 'application/json'
