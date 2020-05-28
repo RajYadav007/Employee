@@ -1,1 +1,2 @@
-web:expo start
+web:expo start,
+web:npm start
