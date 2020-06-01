@@ -9,7 +9,7 @@ const Profile=(props)=>
 {
     const {_id,name,email,phone,salary,picture,position} = props.route.params.item
     const deleteEmploye = ()=>{
-        fetch("https://bhhehel.herokuapp.com/delete",{
+        fetch("https://rajyadav007.herokuapp.com/delete",{
             method:"post",
             headers:{
              'Content-Type': 'application/json'

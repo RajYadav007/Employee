@@ -14,7 +14,7 @@ return state
    })
 const fetchData=()=>
 {
-    fetch("https://bhhehel.herokuapp.com/")
+    fetch("https://rajyadav007.herokuapp.com/")
     .then(res=>res.json())
     .then(results=>{
         //setData(results)
