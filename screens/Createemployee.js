@@ -87,8 +87,9 @@ const Createemployee=({navigation,route})=>
         navigation.navigate("Home")
     })
     .catch(err=>{
-       
-      Alert.alert("someting went wrong")
+      // console.log(err);
+
+      Alert.alert("someting went wrong",err)
   }) 
   }
 
